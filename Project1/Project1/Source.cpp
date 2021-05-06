@@ -52,9 +52,9 @@ void display()
 void main(int argc, char** argv)
 {
 	printf("Enter Start Points (x1,y1)\n");
-	scanf("%d %d", &x1, &y1);
+	scanf_s("%d %d", &x1, &y1);
 	printf("Enter End Points (x2,y2)\n");
-	scanf("%d %d", &x2, &y2);
+	scanf_s("%d %d", &x2, &y2);
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(500, 500);
