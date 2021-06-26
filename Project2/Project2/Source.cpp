@@ -65,7 +65,7 @@ void rotateMenu(int option)
 }
 void main(int argc, char** argv)
 {
-	printf("Enter Fixed Points (x,y) for Roration: \n"); 
+	printf("Enter Fixed Points (x,y) for Rotation: \n"); 
 	scanf_s("%d %d", &x, &y);
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
